@@ -17,16 +17,16 @@ public class ImperativeVsDeclarativeProgramming {
         );
 
         // Imperative approach to filter female persons.
-//        for(Person person : people){
-//            if (MALE.equals(person.gender)){
-//                System.out.println(person.toString());
-//            }
-//        }
+        for(Person person : people){
+            if (MALE.equals(person.gender)){
+                System.out.println(person.toString());
+            }
+        }
 
         // Declarative approach to filter female persons.
-        people.stream()
-                .filter(person -> FEMALE.equals(person.gender))
-                .forEach(System.out::println);
+//        people.stream()
+//                .filter(person -> FEMALE.equals(person.gender))
+//                .forEach(System.out::println);
     }
 
 
