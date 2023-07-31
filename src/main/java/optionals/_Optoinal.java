@@ -1,4 +1,4 @@
-package org.obeidat.java8.optionals;
+package optionals;
 
 import java.util.List;
 import java.util.Optional;

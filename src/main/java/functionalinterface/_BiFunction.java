@@ -1,4 +1,4 @@
-package org.obeidat.java8.functionalinterface;
+package functionalinterface;
 
 import java.util.function.BiFunction;
 

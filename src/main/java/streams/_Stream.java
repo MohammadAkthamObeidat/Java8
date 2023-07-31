@@ -1,12 +1,12 @@
-package org.obeidat.java8.streams;
+package streams;
 
-import org.obeidat.java8.imperative.Gender;
+import imperative.Gender;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
-import static org.obeidat.java8.imperative.Gender.FEMALE;
-import static org.obeidat.java8.imperative.Gender.MALE;
+import static imperative.Gender.FEMALE;
+import static imperative.Gender.MALE;
 
 public class _Stream {
 

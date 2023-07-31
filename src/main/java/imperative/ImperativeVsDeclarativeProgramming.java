@@ -1,9 +1,9 @@
-package org.obeidat.java8.imperative;
+package imperative;
 
 import java.util.List;
 
-import static org.obeidat.java8.imperative.Gender.FEMALE;
-import static org.obeidat.java8.imperative.Gender.MALE;
+import static imperative.Gender.FEMALE;
+import static imperative.Gender.MALE;
 
 public class ImperativeVsDeclarativeProgramming {
     public static void main(String[] args) {

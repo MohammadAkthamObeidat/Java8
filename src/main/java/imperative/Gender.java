@@ -1,4 +1,4 @@
-package org.obeidat.java8.imperative;
+package imperative;
 
 public enum Gender {
     MALE, FEMALE
