@@ -1,10 +1,9 @@
 package combinatorpattern;
 
-import combinatorpattern.CustomerRegistrationValidator.ValidationResult;
-
 import java.time.LocalDate;
 
-import static combinatorpattern.CustomerRegistrationValidator.ValidationResult.SUCCESS;
+import static combinatorpattern.CustomerRegistrationValidator.*;
+import static combinatorpattern.ValidationResult.SUCCESS;
 
 public class Main {
 
@@ -17,9 +16,9 @@ public class Main {
         );
 
         // Using combinator pattern to validate the customer
-        ValidationResult result = CustomerRegistrationValidator.isEmailValid()
-                .and(CustomerRegistrationValidator.isAdult())
-                .and(CustomerRegistrationValidator.isPhoneNumberValid())
+        ValidationResult result = isEmailValid()
+                .and(isAdult())
+                .and(isPhoneNumberValid())
                 .apply(customer);
 
         System.out.println(result);
